@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24067" started-at="2022-04-05T11:57:55Z" finished-at="2022-04-05T11:58:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24067" started-at="2022-04-05T11:57:55Z" finished-at="2022-04-05T11:58:19Z">
+      <class name="org.sample.Ddata">
+        <test-method status="PASS" signature="browser()[pri:0, instance:org.sample.Ddata@482cd91f]" name="browser" is-config="true" duration-ms="4123" started-at="2022-04-05T11:57:55Z" finished-at="2022-04-05T11:57:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.Ddata@482cd91f]" name="tc1" duration-ms="10759" started-at="2022-04-05T11:57:59Z" data-provider="eaytc" finished-at="2022-04-05T11:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.sample.Ddata@482cd91f]" name="tc1" duration-ms="9137" started-at="2022-04-05T11:58:10Z" data-provider="eaytc" finished-at="2022-04-05T11:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thamizh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.sample.Ddata -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
